@@ -1207,6 +1207,10 @@ figcaption {
   font-family: Noto Sans SC, sans-serif;
 }
 
+.combine-button-3.reture {
+  padding: .45rem 2rem;
+}
+
 .combine-header1_content {
   width: 70%;
   max-width: 100%;
@@ -2222,6 +2226,168 @@ figcaption {
   color: #5c2f8c;
 }
 
+.combine-text-size-regular-8 {
+  color: #5f6570;
+  margin-bottom: 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.combine-space-small {
+  width: 100%;
+  height: 1rem;
+}
+
+.combine-faq3_title {
+  color: #1f2c3d;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.combine-icon_small {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.combine-icon_color1 {
+  color: #6157f8;
+}
+
+.combine-faq3_question {
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+  align-items: center;
+  display: flex;
+}
+
+.combine-icon_color3 {
+  color: #f8b34b;
+}
+
+.combine-icon_color2 {
+  color: #00a1c1;
+}
+
+.combine-faq3_wrapper {
+  grid-column-gap: 2.25rem;
+  grid-row-gap: 2.25rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.combine-faq3_component {
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items: start;
+  display: grid;
+}
+
+.combine-container-large {
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.combine-space-large-3 {
+  height: 4rem;
+}
+
+.combine-space-medium {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.combine-heading-style-h2-6 {
+  color: #1f2c3d;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Noto Sans TC, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.combine-text-align-center {
+  text-align: center;
+}
+
+.combine-container-small {
+  width: 100%;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.combine-padding-section-medium-8 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.combine-padding-global-15 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.combine-section_faq3 {
+  background-color: #fff;
+}
+
+.image-17 {
+  width: 10%;
+  text-align: left;
+  display: block;
+}
+
+.div-block-10 {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.combine-gallery2_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.combine-gallery2_image-wrapper {
+  width: 100%;
+  height: 17rem;
+  border-radius: .75rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.combine-gallery2_component {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.25rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.combine-padding-section-medium-9 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.combine-section_gallery2 {
+  background-color: #fff;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -2542,6 +2708,19 @@ figcaption {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
+
+  .combine-heading-style-h2-6 {
+    font-size: 2.5rem;
+  }
+
+  .combine-padding-global-15 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .combine-gallery2_image-wrapper {
+    height: 14rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2746,9 +2925,13 @@ figcaption {
     min-width: 0;
   }
 
-  .combine-padding-global-11, .combine-padding-global-12, .combine-padding-global-13, .combine-padding-global-6, .combine-padding-global-14 {
+  .combine-padding-global-11, .combine-padding-global-12, .combine-padding-global-13, .combine-padding-global-6, .combine-padding-global-14, .combine-padding-global-15 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .combine-gallery2_component {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -2928,6 +3111,19 @@ figcaption {
   .combine-padding-global-6, .combine-padding-global-14 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .combine-faq3_component {
+    grid-template-columns: 1fr;
+  }
+
+  .combine-padding-global-15 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .combine-gallery2_component {
+    grid-template-columns: 1fr;
   }
 }
 
